@@ -1,0 +1,105 @@
+.front{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+}
+.container{
+    display: flex;
+    background-color: #FAFAFA;
+    
+}
+
+.front_img{
+    background:no-repeat center center fixed;
+   height: 90vh;
+   width: 40vw;
+   opacity: 0.7;
+   margin-top: 50px;
+   border-radius: 20px;
+   margin-left: 10vw;
+}
+.font_form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    height: 90vh;
+   width: 25vw;
+    margin-top: 50px;
+    margin-left: 15vw;
+    background-color: #FFFFFF;
+}
+.signIn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 4vh;
+}
+.signIn > input{
+    height: 40px;
+    border: 2px solid lightgray;
+    width: 15vw;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+.signIn>button{
+    border: none;
+    height: 35px;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 6px;
+    padding: 0 4px;
+    font-size: 17px;
+    width: 16vw;
+    margin: auto;
+}
+.signIn>button:hover{
+    cursor: pointer;
+}
+
+.signUp{
+    margin-top: 100px;
+    margin-left: 5vw;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.signUpbutton{
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    color:#1877F2 ;
+}
+.signUpbutton:hover{
+    cursor: pointer;
+}
+
+.front_heading{
+    display: flex;
+    
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+
+ .front_heading{
+   font-size: 20px;
+ }
+}
+
+@media only screen and (max-width: 425px) {
+
+ .front_heading{
+   font-size: 14px;
+ }
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}

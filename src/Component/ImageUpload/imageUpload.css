@@ -1,0 +1,46 @@
+.imageupload{
+    /* border: 2px solid blue; */
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    row-gap:6px;
+    background-color: white;
+    row-gap: 20px;
+ 
+}
+.imageupload>h2{
+    font-size: 30px;
+    font-weight: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.imageupload_progress{
+    width: 100%;
+}
+
+.imageupload_caption{
+    height: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.imageupload > button{
+    border: none;
+    height: 35px;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 6px;
+    padding: 0 4px;
+    width: 100px;
+    font-size: 17px;
+    margin: auto;
+}
+.imageupload > button:hover{
+ cursor: pointer;
+}
